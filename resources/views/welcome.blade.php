@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Chaoul Insurance Brokerage - Your Trusted Insurance Partner</title>
-    <meta name="description" content="Chaoul Insurance Brokerage - Exceptional service. Transparent policies. Lasting relationships. 11+ years of expertise serving 3,000+ clients in Lebanon.">
+    <meta name="description"
+        content="Chaoul Insurance Brokerage - Exceptional service. Transparent policies. Lasting relationships. 11+ years of expertise serving 3,000+ clients in Lebanon.">
 
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700" rel="stylesheet" />
@@ -31,7 +33,7 @@
         /* Header */
         header {
             background: #fff;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -98,7 +100,7 @@
 
         .cta-button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
         }
 
         /* Stats Section */
@@ -147,13 +149,13 @@
             background: white;
             padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s, box-shadow 0.3s;
         }
 
         .service-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
         }
 
         .service-card h3 {
@@ -280,6 +282,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -418,4 +421,16 @@
         </div>
     </footer>
 </body>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L49PM76P2K"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-L49PM76P2K');
+</script>
 </html>
