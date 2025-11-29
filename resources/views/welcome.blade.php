@@ -420,17 +420,17 @@
             <p>&copy; {{ date('Y') }} Chaoul Insurance Brokerage. All rights reserved.</p>
         </div>
     </footer>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L49PM76P2K"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+    
+        gtag('config', 'G-L49PM76P2K');
+    </script>
 </body>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-L49PM76P2K"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-L49PM76P2K');
-</script>
 </html>
